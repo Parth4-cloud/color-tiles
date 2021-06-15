@@ -1,0 +1,50 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  width:10px;
+  padding: 10px;
+}
+.status{
+  color:maroon;
+  width: 30%;
+  padding-left: 150px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.time {
+  color:maroon;
+  width: 30%;
+  display: inline-block;
+  font-weight: 600;
+  padding-left: 200px
+}
+h1{
+    margin: 0;
+    
+    color:maroon;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 500%;
+}
+.gridContainer2 {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width:1px;
+  padding-left: 500px;
+}
+.gridItem {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.gridItem2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
